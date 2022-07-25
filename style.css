@@ -17,12 +17,19 @@ h3 {
   margin-top: 10px;
 }
 .video-link img {
+  display: block;
   margin-top: 10vh;
   height: 80px;
   width: 100px;
   /* margin-bottom: 10vh; */
 }
-image img {
-  height: 50px;
-  width: 200px;
+.img-div {
+  display: block;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#image {
+  max-width: 100%;
 }
